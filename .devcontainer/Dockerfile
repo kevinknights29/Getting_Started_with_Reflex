@@ -20,7 +20,9 @@ RUN apt-get update && \
     libreadline-dev \
     libffi-dev \
     libsqlite3-dev \
-    libbz2-dev
+    libbz2-dev \
+    unzip \
+    curl
 
 # Copy files
 COPY requirements.in install_dependencies.sh ./
